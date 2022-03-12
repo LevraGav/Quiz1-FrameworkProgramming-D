@@ -1,0 +1,304 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Inter:wght@100;400&display=swap');
+
+.navbar {
+    padding: 1% 5%;
+    font-family: 'Inter', sans-serif;
+    z-index: 999;
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+}
+
+    .navbar .logo a {
+        color: #034078;
+        font-weight: 600;
+        letter-spacing: 3px;
+        font-size: 2vw;
+    }
+
+        .navbar .logo a span {
+            color: #1282A2;
+        }
+
+    .navbar ul li a {
+        font-weight: 500;
+    }
+
+.offcanvas-end {
+    width: 40%;
+}
+
+main {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+section {
+    padding: 5% 0;
+}
+
+/halaman home/
+.home {
+    margin: auto;
+    width: 95%;
+    position: relative;
+}
+
+.home img {
+    position: relative;
+}
+
+.deskripsi-poster {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 30%;
+    padding: 5% 5%;
+    background-color: #FFD8B5;
+}
+
+    .deskripsi-poster .judul {
+        font-family: 'Abhaya Libre', serif;
+    }
+
+        .deskripsi-poster .judul span {
+            color: #312124;
+        }
+
+..deskripsi-poster .teks {
+    font-family: 'Inter', sans-serif;
+}
+
+/halaman profile/
+#product .ket {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 1px;
+    padding: 0 2px;
+}
+
+#product .row h3 {
+    font-weight: 600;
+    line-height: 1;
+    color: #084B83;
+}
+
+#product .row h5 {
+    font-weight: 600;
+    line-height: 1;
+}
+
+/--------------------------------/
+
+/Company pages/
+#company .logo a {
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 2vw;
+}
+
+.quote {
+    margin-top: 0px;
+    position: relative;
+    color: white;
+}
+
+.quote .text {
+   position: absolute;
+   font-family: var(--font-1);
+   font-size: 3vw;
+   max-width: 40%;
+   top: 10%;
+   left: 7%;
+}
+
+.about .text {
+    width: 80%;
+    margin: 0 auto;
+    font-family: var(--font-2);
+    font-size: 2vh;
+}
+
+.page-section .section-subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: var(--font-2);
+    margin-bottom: 2rem;
+}
+
+/---------------------/
+/Collaboration pages/
+.judul2 {
+    color: black;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/--------------------/
+
+/Product pages/
+.page-section {
+    padding: 1rem 0;
+}
+
+.page-section h1.section-heading, .page-section .section-heading.h2 {
+    font-size: 3vw;
+    font-weight: 500;
+    color: #1282A2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: var(--font-2);
+    margin-bottom: 2rem;
+}
+
+#product .product-item {
+    margin: 3rem 0;
+    padding: 2rem 2rem;
+    width: 23rem;
+    height: 30rem;
+    background-color: white;
+}
+
+    #product .product-item:hover {
+        background-color: #0D3B66;
+    }
+
+.product-item i {
+    position: absolute;
+    padding: 1rem 1rem;
+    color: white;
+    border-radius: 50%;
+    top: 4rem;
+    right: 5rem;
+}
+
+.product-item img {
+    position: relative;
+    margin: 0 auto;
+    height: 75%;
+}
+
+#product .product-item .product-caption {
+    text-align: center;
+}
+
+    #product .product-item .product-caption .product-caption-heading {
+        font-size: 1.5rem;
+        font-family: var(--font-2);
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+
+    #product .product-item .product-caption .product-caption-subheading {
+        font-style: italic;
+        font-weight: 700;
+        font-family: var(--font-2);
+    }
+
+/------------------/
+/Collaboration pages/
+
+#collaboration .collaboration-item {
+    max-width: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/-----------------/
+
+
+.welcome {
+    font-weight: bolder;
+}
+
+/*header {
+   background-color: #c28132;
+}*/
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
